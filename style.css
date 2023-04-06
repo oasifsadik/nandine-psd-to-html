@@ -159,3 +159,26 @@ button {
 .about .text {
     width: 70%;
 }
+
+.video {
+    background: url("images/video.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+    z-index: 3;
+}
+
+.video::before {
+    content: "";
+    clear: both;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    z-index: -1;
+}
