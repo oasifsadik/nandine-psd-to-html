@@ -31,6 +31,10 @@ nav .menu ul li a {
     display: inline-block;
 }
 
+nav .menu ul li a:hover {
+    color: #fe320a;
+}
+
 .red-color {
     color: #fe320a;
 }
