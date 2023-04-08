@@ -105,7 +105,7 @@ button {
     background: #fe320a;
     position: absolute;
     top: 113%;
-    left: 50%;
+    left: 49%;
 }
 
 .about {
@@ -185,4 +185,24 @@ button {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     z-index: -1;
+}
+
+.service {
+    display: flex;
+}
+
+.row .col {
+    width: 31.3%;
+    margin: 1% 1%;
+    text-align: left;
+    float: left;
+}
+
+.row .col h3 {
+    text-align: center;
+}
+
+.row .col h2 {
+    text-align: center;
+    color: red;
 }
