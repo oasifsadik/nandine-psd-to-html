@@ -187,22 +187,21 @@ button {
     z-index: -1;
 }
 
-.service {
+.service .row {
+    margin-top: 45px;
+    display: flex;
+    text-align: center;
+}
+
+.skills {
+    background: #f3f3f3;
+}
+
+.skills .row {
     display: flex;
 }
 
-.row .col {
-    width: 31.3%;
-    margin: 1% 1%;
-    text-align: left;
-    float: left;
-}
-
-.row .col h3 {
-    text-align: center;
-}
-
-.row .col h2 {
-    text-align: center;
-    color: red;
+.skills .row .col {
+    width: 48%;
+    margin: 1%;
 }
