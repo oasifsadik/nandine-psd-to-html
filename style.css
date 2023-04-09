@@ -205,3 +205,43 @@ button {
     width: 48%;
     margin: 1%;
 }
+
+.skills .row .col .pro {
+    margin: 20px 0;
+}
+
+.skills .row .col .pro .out {
+    height: 16px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, .8);
+    position: relative;
+    text-align: right;
+    color: white;
+    font-size: 14px;
+}
+
+.skills .row .col .pro .out .in {
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(255, 0, 0, .8);
+    top: 50%;
+    left: 0;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+.skills .row .col .pro .out .one {
+    width: 60%;
+}
+
+.skills .row .col .pro .out .two {
+    width: 70%;
+}
+
+.skills .row .col .pro .out .three {
+    width: 80%;
+}
+
+.skills .row .col .pro .out .four {
+    width: 90%;
+}
