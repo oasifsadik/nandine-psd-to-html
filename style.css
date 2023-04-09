@@ -299,3 +299,68 @@ button {
     color: white;
     font-size: 25px;
 }
+
+.team {
+    background: #e1e1e1;
+}
+
+.team .row {
+    display: flex;
+}
+
+.team .row .col {
+    width: 23%;
+    margin: 1%;
+}
+
+.team .row .col .pic {
+    position: relative;
+}
+
+.team .row .col .pic img {
+    border-bottom: 10px solid rgba(255, 0, 0, .8);
+    width: 100%;
+}
+
+.team .row .col .pic img:hover+.over {
+    display: block;
+}
+
+.team .row .col .pic .over {
+    background: rgba(255, 0, 0, .3);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 3px;
+    position: absolute;
+    display: none;
+}
+
+.team .row .col .pic .over .social {
+    background: rgba(255, 0, 0, .8);
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #f3f3f3;
+    padding-bottom: 10px;
+}
+
+.team .row .col .pic .over .social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team .row .col .pic .over .social ul a {
+    color: #f3f3f3;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.team .row .col .pic .over .social h3 {
+    margin: 10px 0;
+}
